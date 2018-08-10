@@ -14,7 +14,7 @@ TASK: lamps
 static FILE *in, *out;
 static int n, c;
 static int muston[NMAX + 1], mustoff[NMAX + 1];
-static int dp[NBUTTON*2][NMAX];		// 0000~1111, 8~15 corrupts with 0~7
+static int dp[NBUTTON*2][NMAX];		// 0000~1111, 8~15 collides with 0~7
 
 void swap(int lhs, int rhs)
 {
